@@ -5,12 +5,34 @@ This system was designed and implemented for a regulated enterprise environment 
 No production data, credentials, or internal infrastructure details are disclosed.
 
 ---
-
 ## 🧠 Overview
 
 Enterprise IT Operations Platform designed to support multi-branch operations and centralized IT service management in a regulated financial environment.
 
 The system enables incident tracking, service coordination, and operational visibility across distributed teams.
+
+---
+## 🧭 Business Context
+
+The platform was developed to address operational inefficiencies in distributed IT environments, enabling structured service delivery and improved coordination between technical teams and business stakeholders.
+
+---
+
+## 🚀 Engineering Impact
+
+The system introduced a unified operational model that improved coordination, reduced response delays, and increased visibility across IT operations in a distributed enterprise environment.
+
+---
+
+## 📊 Scope & Scale
+
+The platform was designed to support enterprise-scale operations across multiple distributed branches within a regulated financial environment, ensuring high availability and operational continuity.
+
+---
+
+## 🧩 System Design Approach
+
+The system was designed using modular architecture principles to ensure scalability, maintainability, and separation of concerns across service layers.
 
 ---
 
@@ -24,20 +46,20 @@ The system enables incident tracking, service coordination, and operational visi
 
 ---
 
-## 🏗 Architecture (High Level)
+## 🏗 Architecture (High-Level Design)
 
-- Backend: Node.js (Express.js)
-- Frontend: React.js
-- Database: PostgreSQL
-- Infrastructure: Cloud-based environment
-- Authentication: JWT-based security model
-- Reverse Proxy: Nginx
+- Backend: Node.js (Express.js) – Modular API architecture
+- Frontend: React.js – Component-based UI design
+- Database: PostgreSQL – Relational data model
+- Infrastructure: Cloud-based deployment environment
+- Authentication: JWT-based secure access model
+- Reverse Proxy: Nginx for traffic management and routing
 
 ---
 
-## 📱 Mobile Access
+## 📱 Mobile & Field Operations
 
-Cross-platform mobile application built with Flutter to support field operations and real-time notifications.
+A cross-platform mobile application built with Flutter was developed to support field engineers and operational teams, enabling real-time incident visibility and operational responsiveness.
 
 ---
 
